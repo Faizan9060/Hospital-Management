@@ -1,0 +1,21 @@
+﻿  finaltask.cpp
+  patient.cpp
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\patient.cpp(8,16): warning C4101: 'stmt1': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\patient.cpp(6,13): warning C4101: 'driver1': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\patient.cpp(39,16): warning C4101: 'stmt1': unreferenced local variable
+  physician.cpp
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\physician.cpp(8,16): warning C4101: 'stmt': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\physician.cpp(25,13): warning C4101: 'driver': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\physician.cpp(27,16): warning C4101: 'stmt': unreferenced local variable
+  treatment_details.cpp
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\treatment_details.cpp(7,16): warning C4101: 'stmt2': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\treatment_details.cpp(5,13): warning C4101: 'driver2': unreferenced local variable
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\finaltask\treatment_details.cpp(40,16): warning C4101: 'stmt2': unreferenced local variable
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl physician::read_physician_details(void)" (?read_physician_details@physician@@QEAAXXZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl physician::print_physician_details(void)" (?print_physician_details@physician@@QEAAXXZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: __cdecl physician::physician(void)" (??0physician@@QEAA@XZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl treatment_details::print_treatment_details(void)" (?print_treatment_details@treatment_details@@QEAAXXZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl treatment_details::read_treatment_details(void)" (?read_treatment_details@treatment_details@@QEAAXXZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl patient::read_patient_details(void)" (?read_patient_details@patient@@QEAAXXZ)
+finaltask.obj : error LNK2001: unresolved external symbol "public: void __cdecl patient::print_patient_details(void)" (?print_patient_details@patient@@QEAAXXZ)
+C:\Users\FAIZAN\Desktop\open-ended\finaltask\x64\Release\finaltask.exe : fatal error LNK1120: 7 unresolved externals
